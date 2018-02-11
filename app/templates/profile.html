@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+
+{% block main %}
+<div class="div_profile">
+    <img src={{ url_for('static', filename="pp.jpg") }}></img>
+    <h1>Kavon Campbell</h1>
+    <h2>@R3aperofSouls</h2>
+    <h2>Kingston, Jamaica</h2>
+    <h2>Date Joined: {{display_time}}</h2>
+</div>
+<div class="div_info">
+    <p>Will code for food!</p>
+</div>
+<div class="div_info">
+    <p>7</p>
+    <p>Posts</p>
+</div>
+<div class="div_info">
+    <p>100</p>
+    <p>Following</p>
+</div> 
+<div class="div_info">
+    <p>250</p>
+    <p>Followers</p>
+</div>
+<div class="div_button">Follow</div>
+
+{% endblock %}
